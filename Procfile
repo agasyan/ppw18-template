@@ -1,2 +1,2 @@
 migrate: bash deployment.sh
-web: gunicorn praktikum.wsgi --log-file -
+web: gunicorn templatePPW.wsgi --log-file -
