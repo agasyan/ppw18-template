@@ -1,2 +1,2 @@
 migrate: bash deployment.sh
-web: gunicorn templateProjects.wsgi --log-file -
+web: gunicorn templateProject.wsgi --log-file -
